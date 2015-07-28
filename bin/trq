@@ -1,0 +1,4 @@
+#!/bin/bash 
+
+echo "Switching to TR-Q layout..."
+setxkbmap -layout tr

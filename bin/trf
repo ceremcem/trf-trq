@@ -1,0 +1,4 @@
+#!/bin/bash 
+
+echo "Switching to TR-F layout..."
+setxkbmap -layout tr -variant f

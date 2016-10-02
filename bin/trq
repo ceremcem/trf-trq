@@ -1,4 +1,6 @@
 #!/bin/bash 
 
-echo "Switching to TR-Q layout..."
+MSG="Switching to TR-Q layout..."
+notify-send "$MSG"
+echo $MSG
 setxkbmap -layout tr

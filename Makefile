@@ -1,2 +1,2 @@
 all: 
-	sudo cp bin/* /usr/bin
+	sudo cp -a bin/* /usr/bin

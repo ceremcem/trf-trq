@@ -1,4 +1,7 @@
 #!/bin/bash 
 
-echo "Switching to TR-F layout..."
+MSG="Switching to TR-F layout..."
+notify-send "$MSG"
+echo $MSG
+
 setxkbmap -layout tr -variant f
